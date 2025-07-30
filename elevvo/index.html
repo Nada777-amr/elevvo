@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Font Awesome - working CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+
+<body>
+
+  <!-- Toggle Button -->
+  <button id="toggleBtn">&#9776;</button>
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar">
+    <div class="logo">
+      <img src="elevvopaths_logo.jpeg" alt="Logo" />
+    </div>
+
+    <ul class="nav-links">
+      <li><i class="fas fa-home"></i> <span>Home</span></li>
+      <li><i class="fas fa-user"></i> <span>Profile</span></li>
+      <li><i class="fas fa-cog"></i> <span>Settings</span></li>
+      <li><i class="fas fa-info-circle"></i> <span>About</span></li>
+      <li><i class="fas fa-sign-out-alt"></i> <span>Logout</span></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h1>Main Content</h1>
+    <p>This is the main area. The sidebar can be toggled.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
